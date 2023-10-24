@@ -89,24 +89,23 @@ h2 {
 
 /* Banner styles */
 .banner {
-    height: 250px;
-    text-align: center;
-    align-content: center;
-    padding-top: 140px;
+    height: 400px;
     background-image: url("https://images.pexels.com/photos/2248449/pexels-photo-2248449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner cite {
-    margin-top: 100px;
     padding: 1em 2em;
     background: aliceblue;
 }
 
 /* Main styles */
-.page-introduction {
+.section-introduction {
     background: white;
     margin: 40px 110px;
     display: flex;
@@ -115,7 +114,7 @@ h2 {
     align-items: center;
 }
 
-.page-introduction > p {
+.section-introduction > p {
     margin-bottom: 20px;
     color: #838181;
 }
