@@ -1,24 +1,32 @@
+/* Generell Styles */
 * {
     margin: 0;
     padding: 0;
 }
 
 html {
+    color: #393940;
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;;
     box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
 }
 
 .clear-float {
     clear: both;
 }
 
-/* Header styles */
-header {
-    background: #092f25;
+.divider {
+    height: 20px;
+    width: 100%;
 }
 
+/* Typography */
 h1 {
+    font-family: 'Yeseva One', serif;
     font-size: 3rem;
     color: aliceblue;
     padding: .4em 0 1em .4em;
@@ -29,6 +37,28 @@ h2 {
     margin-bottom: .8em ;
 }
 
+/* Header styles */
+header {
+    background: #092f25;
+}
+
+/* Navigation styles */
+main > nav {
+    width: 30%;
+    background: aliceblue;
+    float: right;
+    padding: 1em 1.5em;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: #092f25;
+}
+
+/* Banner styles */
 .banner {
     height: 250px;
     background: aliceblue;
@@ -45,22 +75,6 @@ h2 {
     margin-top: 100px;
     padding: 1em 2em;
     background: aliceblue;
-}
-
-/* Navigation styles */
-nav {
-    width: 30%;
-    background: aliceblue;
-    float: right;
-    padding: 1em 1.5em;
-}
-
-nav li {
-    list-style: none;
-}
-
-nav li a {
-    color: #092f25;
 }
 
 /* Main styles */
@@ -86,9 +100,8 @@ main {
     margin: 0 0 .5em 0;
 }
 
-image {
-    height: 50px;
-    object-fit: contain;
-
+.article > p {
+    width: 90%;
 }
+
 
