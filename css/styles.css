@@ -24,11 +24,21 @@ body {
     width: 100%;
 }
 
+.nav-fix {
+    padding-top: 100px;
+}
+
+.line-fancy {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+}
+
 /* Typography */
 h1 {
     font-family: 'Yeseva One', serif;
     font-size: 3rem;
-    color: aliceblue;
+    text-align: center;
     padding: .4em 0 1em .4em;
 }
 
