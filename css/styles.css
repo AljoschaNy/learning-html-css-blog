@@ -39,10 +39,42 @@ h2 {
 
 /* Header styles */
 header {
-    background: #092f25;
 }
 
 /* Navigation styles */
+#nav-main {
+    height: 70px;
+    width: 100%;
+    padding: 0 80px;
+    background: #fff;
+    box-shadow: rgba(32, 32, 37, 0.15) 0 2px 18px -1px;
+    position: fixed;
+}
+#nav-main ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#nav-main  li {
+    list-style: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#nav-main  li:hover {
+    color: rgb(111,111,255);
+}
+
+.home {
+    color: rgb(111,111,255);
+}
+
+.dropdown::after {
+    content: "↓";
+    margin-left: 5px;
+}
+
 main > nav {
     width: 30%;
     background: aliceblue;
