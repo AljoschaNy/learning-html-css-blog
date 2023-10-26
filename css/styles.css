@@ -13,6 +13,7 @@ html {
 
 body {
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .clear-float {
@@ -124,20 +125,33 @@ main {
 }
 
 .articles-list {
-    width: 50%;
-    margin: 0 auto;
-    float: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+
 }
 
 .article {
-    background: azure;
-    margin-bottom: 1.5em;
-    padding: 1em 1.5em;
-    border-radius: 10px;
+    width: 300px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.article-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .article > h3 {
-    margin: 0 0 .5em 0;
+    margin-bottom: 50px;
 }
 
 .article > p {
